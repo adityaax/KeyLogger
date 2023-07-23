@@ -13,4 +13,4 @@
 
 `pip install pynput`
 
-:basketball: Create `log.txt` file in the same directory of `keylogger.py` file.
+:basketball: Create `log.txt` file in the same directory of `keyLogger.py` file.
