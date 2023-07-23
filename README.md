@@ -14,3 +14,12 @@
 `pip install pynput`
 
 :basketball: Create `log.txt` file in the same directory of `keyLogger.py` file.
+
+# About the library
+:flying_disc: `pynput`- This library allows you to control and monitor input devices.
+
+:flying_disc: In this I have used `pynput.keyboard` subpackage(contains classes for controlling and monitoring the keyboard)
+
+# Working
+1. Listen the pressed key
+2. Add pressed key to the file
