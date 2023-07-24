@@ -20,6 +20,10 @@
 
 :flying_disc: In this I have used `pynput.keyboard` subpackage(contains classes for controlling and monitoring the keyboard)
 
+# smtplib module
+:flying_disc: It is the module used to send mails.
+
 # Working
 1. Listen the pressed key
 2. Add pressed key to the file
+3. After every 10 keys pressed, send it to the researcher's email.
